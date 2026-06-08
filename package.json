@@ -1,0 +1,17 @@
+{
+  "name": "treinos-meia-maratona",
+  "version": "1.0.0",
+  "private": true,
+  "description": "App para lançar treinos do plano de meia maratona usando JSON como banco NoSQL.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check public/app.js && node --check api/treinos.js && node --check api/treino.js && node --check api/db.js"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "@vercel/blob": "^2.4.0"
+  }
+}
